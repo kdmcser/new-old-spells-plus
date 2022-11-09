@@ -1,0 +1,171 @@
+{
+	"dragonStrength":
+	{
+		"type": "combat", 
+		"name": "Dragon Strength",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 5, 
+		"gainChance":
+		{
+			"rampart": 20,
+			"dungeon" : 15,
+			"tower": 10,
+			"inferno": 5,
+			"necropolis": 0,
+			"conflux": 0
+		},
+ 
+		"flags" : {"positive": true},
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},			
+			"noneOf" : {
+				"core:bonus.DRAGON_NATURE": "normal"
+			}
+	},
+ 
+		"graphics":
+		{
+			"iconBook": "NewOldSpells/dragonSBook.bmp",
+			"iconScroll": "NewOldSpells/dragonSScroll.bmp",
+			"iconScenarioBonus": "NewOldSpells/dragonSScenario.bmp",
+			"iconEffect": "NewOldSpells/dragonSEffect.bmp"
+		},
+		
+		"animation":
+		{
+			"affect":["NewOldSpells/dragonSSpell.def"]
+		},
+
+		"sounds":
+		{
+			"cast": "NewOldSpells/sound.spell.dragon strength.wav"
+		},
+		
+		"targetType": "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"power": 10,
+				"aiValue": 20,
+				"range": "0",
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "{Dragon Strength}\n\nIncreases health and damage of a friendly unit by 50%. Does not affect Dragons.\n",
+	 
+				"cost": 30,
+	 
+				"effects":
+				{
+					"health":
+					{
+						"type": "STACK_HEALTH",
+						"val": 50,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					},
+					"damage":
+					{
+						"type": "CREATURE_DAMAGE",
+						"subtype": 0,
+						"val" : 50,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "{Basic Dragon Strength}\n\nIncreases health and damage of a friendly unit by 50%. Does not affect Dragons.\n",
+	 
+				"cost": 25,
+	 
+				"effects":
+				{
+					"health":
+					{
+						"type": "STACK_HEALTH",
+						"val": 50,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					},
+					"damage":
+					{
+						"type": "CREATURE_DAMAGE",
+						"subtype": 0,
+						"val" : 50,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					}
+				}
+			},
+			"advanced":
+			{
+				"description": "{Advanced Dragon Strength}\n\nIncreases health and damage of a friendly unit by 75%. Does not affect Dragons.\n",
+	 
+				"cost": 25,
+	 
+				"effects":
+				{
+					"health":
+					{
+						"type": "STACK_HEALTH",
+						"val": 75,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					},
+					"damage":
+					{
+						"type": "CREATURE_DAMAGE",
+						"subtype": 0,
+						"val" : 75,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "{Expert Dragon Strength}\n\nDoubles health and damage of a friendly unit. Does not affect Dragons.\n",
+	 
+				"cost": 25,
+	 
+				"effects":
+				{
+					"health":
+					{
+						"type": "STACK_HEALTH",
+						"val": 100,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					},
+					"damage":
+					{
+						"type": "CREATURE_DAMAGE",
+						"subtype": 0,
+						"val" : 100,
+						"valueType": "PERCENT_TO_ALL",
+						"duration": "N_TURNS"
+					}
+				}
+			}
+		}
+	}
+ 
+}
