@@ -24,5 +24,14 @@
 		"0.9" : ["Added spell Fear (abandoned H3 spell)"],
 		"0.9.1" : ["Small improvements"],
 		"0.9.5" : ["Graphical lifting, some balancing improvements and adapting to the new spell format"]
-    }
+    },
+    "german" : {
+		"name" : "Neue, alte Zauber+",
+		"description" : "neun Zauber aus anderen HoMM-Spielen",
+		"modType" : "Zauber",
+		
+		"translations" : [
+			"config/NewOldSpells/translation/german.json"
+		]
+	}
 }
