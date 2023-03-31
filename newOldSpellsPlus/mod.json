@@ -28,7 +28,6 @@
     "german" : {
 		"name" : "Neue, alte Zauber+",
 		"description" : "neun Zauber aus anderen HoMM-Spielen",
-		"modType" : "Zauber",
 		
 		"translations" : [
 			"config/NewOldSpells/translation/german.json"
