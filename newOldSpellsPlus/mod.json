@@ -3,19 +3,19 @@
 	"description" : "9 spells from other Homm games",
 	"author" : "Warmonger, Andruids",
 	"contact" : "http://forum.vcmi.eu/viewforum.php?f=15",
-	"version" : "0.9.6",
+	"version" : "0.9.7",
 	"modType" : "Spells",	
 
 	"spells" :
 	[
 		"config/NewOldSpells/WaspSwarm.json",
-		"config/NewOldSpells/Vampirism.json",
 		"config/NewOldSpells/PuppetMaster.json",
 		"config/NewOldSpells/Levitation.json",
 		"config/NewOldSpells/DeepFreeze.json",
 		"config/NewOldSpells/DragonStrength.json",
 		"config/NewOldSpells/Confusion.json",
 		"config/NewOldSpells/Vigour.json",
+		"config/NewOldSpells/Vampirism.json",
 		"config/NewOldSpells/Fear.json"
 	],
 	"changelog" :
@@ -24,7 +24,8 @@
 		"0.9" : ["Added spell Fear (abandoned H3 spell)"],
 		"0.9.1" : ["Small improvements"],
 		"0.9.5" : ["Graphical lifting, some balancing improvements and adapting to the new spell format"],
-		"0.9.6" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ]
+		"0.9.6" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
+		"0.9.7" : [ "Polish translation by Dru" ]
     },
     "chinese" : {
 		"translations" : [
@@ -37,6 +38,14 @@
 		
 		"translations" : [
 			"config/NewOldSpells/translation/german.json"
+		]
+	},
+	 "polish" : {
+		"name" : "Nowe-stare zaklęcia",
+		"description" : "Kilka nowych zaklęć przeniesionych z innych części Heroes of Might and Magic",
+		
+		"translations" : [
+			"config/NewOldSpells/translation/polish.json"
 		]
 	}
 }
