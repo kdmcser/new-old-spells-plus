@@ -83,7 +83,7 @@
 					"damage":
 					{
 						"type": "CREATURE_DAMAGE",
-						"subtype": 0,
+						"subtype": "creatureDamageBoth",
 						"val" : 50,
 						"valueType": "PERCENT_TO_ALL",
 						"duration": "N_TURNS"
@@ -108,7 +108,7 @@
 					"damage":
 					{
 						"type": "CREATURE_DAMAGE",
-						"subtype": 0,
+						"subtype": "creatureDamageBoth",
 						"val" : 50,
 						"valueType": "PERCENT_TO_ALL",
 						"duration": "N_TURNS"
@@ -133,7 +133,7 @@
 					"damage":
 					{
 						"type": "CREATURE_DAMAGE",
-						"subtype": 0,
+						"subtype": "creatureDamageBoth",
 						"val" : 75,
 						"valueType": "PERCENT_TO_ALL",
 						"duration": "N_TURNS"
@@ -158,7 +158,7 @@
 					"damage":
 					{
 						"type": "CREATURE_DAMAGE",
-						"subtype": 0,
+						"subtype": "creatureDamageBoth",
 						"val" : 100,
 						"valueType": "PERCENT_TO_ALL",
 						"duration": "N_TURNS"
@@ -167,5 +167,4 @@
 			}
 		}
 	}
- 
 }

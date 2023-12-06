@@ -79,14 +79,7 @@
 				{
 					"melee" :
 					{
-						"subtype" : 0,
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : -33,
-						"duration" : "STACK_GETS_TURN"
-					},
-					"ranged" :
-					{
-						"subtype" : 1,
+						"subtype" : "damageTypeAll",
 						"type" : "GENERAL_DAMAGE_REDUCTION",
 						"val" : -33,
 						"duration" : "STACK_GETS_TURN"
@@ -104,14 +97,7 @@
 				{
 					"melee" :
 					{
-						"subtype" : 0,
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : -33,
-						"duration" : "STACK_GETS_TURN"
-					},
-					"ranged" :
-					{
-						"subtype" : 1,
+						"subtype" : "damageTypeAll",
 						"type" : "GENERAL_DAMAGE_REDUCTION",
 						"val" : -33,
 						"duration" : "STACK_GETS_TURN"
@@ -129,14 +115,7 @@
 				{
 					"melee" :
 					{
-						"subtype" : 0,
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : -67,
-						"duration" : "STACK_GETS_TURN"
-					},
-					"ranged" :
-					{
-						"subtype" : 1,
+						"subtype" : "damageTypeAll",
 						"type" : "GENERAL_DAMAGE_REDUCTION",
 						"val" : -67,
 						"duration" : "STACK_GETS_TURN"
@@ -154,14 +133,7 @@
 				{
 					"melee" :
 					{
-						"subtype" : 0,
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : -100,
-						"duration" : "STACK_GETS_TURN"
-					},
-					"ranged" :
-					{
-						"subtype" : 1,
+						"subtype" : "damageTypeAll",
 						"type" : "GENERAL_DAMAGE_REDUCTION",
 						"val" : -100,
 						"duration" : "STACK_GETS_TURN"

@@ -1,9 +1,9 @@
 {
 	"name" : "New Old Spells+",
-	"description" : "9 spells from other Homm games",
+	"description" : "9 spells from other HoMM games",
 	"author" : "Warmonger, Andruids",
 	"contact" : "http://forum.vcmi.eu/viewforum.php?f=15",
-	"version" : "0.9.7",
+	"version" : "0.9.8",
 	"modType" : "Spells",	
 
 	"spells" :
@@ -25,9 +25,12 @@
 		"0.9.1" : ["Small improvements"],
 		"0.9.5" : ["Graphical lifting, some balancing improvements and adapting to the new spell format"],
 		"0.9.6" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"0.9.7" : [ "Polish translation by Dru" ]
+		"0.9.7" : [ "Polish translation by Dru" ],
+		"0.9.9" : [ "Update to vcmi-1.4 format" ]
     },
     "chinese" : {
+		"name" : "New Old Spells+",
+		"description" : "9 spells from other Homm games",
 		"translations" : [
 			"config/NewOldSpells/translation/chinese.json"
 		]
