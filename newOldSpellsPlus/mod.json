@@ -3,9 +3,8 @@
 	"description" : "9 spells from other HoMM games",
 	"author" : "Warmonger, Andruids",
 	"contact" : "http://forum.vcmi.eu/viewforum.php?f=15",
-	"version" : "0.9.8",
+	"version" : "1.0.0",
 	"modType" : "Spells",	
-
 	"spells" :
 	[
 		"config/NewOldSpells/WaspSwarm.json",
@@ -27,6 +26,7 @@
 		"0.9.6" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"0.9.7" : [ "Polish translation by Dru" ],
 		"0.9.9" : [ "Update to vcmi-1.4 format" ]
+		"1.0.0" : [ "Czech translation by Georke King" ]
     },
     "chinese" : {
 		"name" : "New Old Spells+",
@@ -34,21 +34,26 @@
 		"translations" : [
 			"config/NewOldSpells/translation/chinese.json"
 		]
-	},
+    },
     "german" : {
 		"name" : "Neue, alte Zauber+",
 		"description" : "neun Zauber aus anderen HoMM-Spielen",
-		
 		"translations" : [
 			"config/NewOldSpells/translation/german.json"
 		]
-	},
-	 "polish" : {
+    },
+    "polish" : {
 		"name" : "Nowe-stare zaklęcia",
 		"description" : "Kilka nowych zaklęć przeniesionych z innych części Heroes of Might and Magic",
-		
 		"translations" : [
 			"config/NewOldSpells/translation/polish.json"
 		]
-	}
+    },
+    "czech" : {
+		"name" : "Nová-stará kouzla",
+		"description" : "Několik nových kouzel přenesených z jiných her Heroes of Might and Magic",
+		"translations" : [
+			"config/NewOldSpells/translation/czech.json"
+		]
+    }
 }
