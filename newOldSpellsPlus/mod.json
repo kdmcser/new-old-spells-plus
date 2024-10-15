@@ -3,7 +3,7 @@
 	"description" : "9 spells from other HoMM games",
 	"author" : "Warmonger, Andruids",
 	"contact" : "http://forum.vcmi.eu/viewforum.php?f=15",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"modType" : "Spells",	
 	"spells" :
 	[
@@ -26,7 +26,8 @@
 		"0.9.6" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"0.9.7" : [ "Polish translation by Dru" ],
 		"0.9.9" : [ "Update to vcmi-1.4 format" ],
-		"1.0.0" : [ "Czech translation by Georke King" ]
+		"1.0.0" : [ "Czech translation by Georke King" ],
+		"1.0.1" : [ "Updated Czech translation" ]
     },
     "chinese" : {
 		"name" : "New Old Spells+",
@@ -50,7 +51,7 @@
 		]
     },
     "czech" : {
-		"name" : "Nová-stará kouzla",
+		"name" : "Staronové kouzla",
 		"description" : "Několik nových kouzel přenesených z jiných her Heroes of Might and Magic",
 		"translations" : [
 			"config/NewOldSpells/translation/czech.json"
