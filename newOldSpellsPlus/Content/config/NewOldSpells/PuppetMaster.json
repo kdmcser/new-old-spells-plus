@@ -76,7 +76,10 @@
 					"undead":
 					{
 						"type": "HYPNOTIZED",
-						"duration": ["UNITL_BEING_ATTACKED","N_TURNS"]
+						"duration": [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
 					},
 					"speed":
 					{
@@ -106,7 +109,10 @@
 					"undead":
 					{
 						"type": "HYPNOTIZED",
-						"duration": ["UNITL_BEING_ATTACKED","N_TURNS"]
+						"duration": [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
 					},
 					"speed":
 					{
@@ -127,7 +133,10 @@
 					"undead":
 					{
 						"type": "HYPNOTIZED",
-						"duration": ["UNITL_BEING_ATTACKED","N_TURNS"]
+						"duration": [
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
+						]
 					}
 				}
 			}
