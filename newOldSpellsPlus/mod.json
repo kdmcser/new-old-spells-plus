@@ -3,7 +3,7 @@
 	"description" : "9 spells from other HoMM games",
 	"author" : "Warmonger, Andruids",
 	"contact" : "http://forum.vcmi.eu/viewforum.php?f=15",
-	"version" : "1.0.2",
+	"version" : "1.0.3",
 	"modType" : "Spells",	
 	"spells" :
 	[
@@ -29,6 +29,7 @@
 		"1.0.0" : [ "Czech translation by Georke King" ],
 		"1.0.1" : [ "Updated Czech translation" ],
 		"1.0.2" : [ "Puppet Master formatting fix" ]
+		"1.0.3" : [ "Added russian translation" ]
     },
     "chinese" : {
 		"name" : "New Old Spells+",
@@ -56,6 +57,13 @@
 		"description" : "Několik nových kouzel přenesených z jiných her Heroes of Might and Magic",
 		"translations" : [
 			"config/NewOldSpells/translation/czech.json"
+		]
+    },
+    "russian" : {
+		"name" : "Новые старые заклинания",
+		"description" : "Девять новых заклинаний, перенесенных из других частей Heroes of Might and Magic",
+		"translations" : [
+			"config/NewOldSpells/translation/russian.json"
 		]
     }
 }
