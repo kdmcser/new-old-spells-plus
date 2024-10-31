@@ -57,5 +57,12 @@
 		"translations" : [
 			"config/NewOldSpells/translation/czech.json"
 		]
+    },
+    "russian" : {
+		"name" : "Новые старые заклинания",
+		"description" : "Девять новых заклинаний, перенесенных из других частей Heroes of Might and Magic",
+		"translations" : [
+			"config/NewOldSpells/translation/russian.json"
+		]
     }
 }
