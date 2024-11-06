@@ -28,7 +28,7 @@
 		"0.9.9" : [ "Update to vcmi-1.4 format" ],
 		"1.0.0" : [ "Czech translation by Georke King" ],
 		"1.0.1" : [ "Updated Czech translation" ],
-		"1.0.2" : [ "Puppet Master formatting fix" ]
+		"1.0.2" : [ "Puppet Master formatting fix" ],
 		"1.0.3" : [ "Added russian translation" ]
     },
     "chinese" : {
