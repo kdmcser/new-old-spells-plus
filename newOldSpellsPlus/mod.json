@@ -1,45 +1,46 @@
 {
-	"name" : "New Old Spells+",
-	"description" : "9 spells from other HoMM games",
+	"name": "Old New Spells",
+	"description": "Expand your magical arsenal with 9 iconic spells inspired by other Heroes of Might and Magic games.<br/><br/>This modification adds:<br/><br/>Confusion<br/>Deep Freeze<br/>Dragon Strength<br/>Fear<br/>Levitation<br/>Puppet Master<br/>Vampirism<br/>Vigour<br/>Wasp Swarm",
 	"author" : "Warmonger, Andruids",
 	"contact" : "http://forum.vcmi.eu/viewforum.php?f=15",
-	"version" : "1.0.3",
+	"version" : "1.0.4",
 	"modType" : "Spells",	
 	"spells" :
 	[
-		"config/NewOldSpells/WaspSwarm.json",
-		"config/NewOldSpells/PuppetMaster.json",
-		"config/NewOldSpells/Levitation.json",
+		"config/NewOldSpells/Confusion.json",
 		"config/NewOldSpells/DeepFreeze.json",
 		"config/NewOldSpells/DragonStrength.json",
-		"config/NewOldSpells/Confusion.json",
-		"config/NewOldSpells/Vigour.json",
+		"config/NewOldSpells/Fear.json",
+		"config/NewOldSpells/Levitation.json",
+		"config/NewOldSpells/PuppetMaster.json",
 		"config/NewOldSpells/Vampirism.json",
-		"config/NewOldSpells/Fear.json"
+		"config/NewOldSpells/Vigour.json",
+		"config/NewOldSpells/WaspSwarm.json"
 	],
 	"changelog" :
     {
-		"0.8"   : ["Initial release"],
-		"0.9"   : ["Added spell Fear (abandoned H3 spell)"],
-		"0.9.1" : ["Small improvements"],
-		"0.9.5" : ["Graphical lifting, some balancing improvements and adapting to the new spell format"],
+		"0.8"   : [ "Initial release" ],
+		"0.9"   : [ "Added spell Fear (abandoned H3 spell)" ],
+		"0.9.1" : [ "Small improvements" ],
+		"0.9.5" : [ "Graphical lifting, some balancing improvements and adapting to the new spell format" ],
 		"0.9.6" : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"0.9.7" : [ "Polish translation by Dru" ],
 		"0.9.9" : [ "Update to vcmi-1.4 format" ],
 		"1.0.0" : [ "Czech translation by Georke King" ],
 		"1.0.1" : [ "Updated Czech translation" ],
 		"1.0.2" : [ "Puppet Master formatting fix" ],
-		"1.0.3" : [ "Added russian translation" ]
+		"1.0.3" : [ "Added russian translation" ],
+		"1.0.4" : [ "Improved description" ]
     },
     "chinese" : {
-		"name" : "New Old Spells+",
-		"description" : "9 spells from other Homm games",
+		"name": "Old New Spells",
+		"description": "Expand your magical arsenal with 9 iconic spells inspired by other Heroes of Might and Magic games.<br/><br/>This modification adds:<br/><br/>Confusion<br/>Deep Freeze<br/>Dragon Strength<br/>Fear<br/>Levitation<br/>Puppet Master<br/>Vampirism<br/>Vigour<br/>Wasp Swarm",
 		"translations" : [
 			"config/NewOldSpells/translation/chinese.json"
 		]
     },
     "german" : {
-		"name" : "Neue, alte Zauber+",
+		"name" : "Neue, alte Zauber",
 		"description" : "neun Zauber aus anderen HoMM-Spielen",
 		"translations" : [
 			"config/NewOldSpells/translation/german.json"
@@ -53,8 +54,8 @@
 		]
     },
     "czech" : {
-		"name" : "Staronové kouzla",
-		"description" : "Několik nových kouzel přenesených z jiných her Heroes of Might and Magic",
+		"name" : "Staronová kouzla",
+		"description": "Rozšiřte svůj magický arzenál o 9 ikonických kouzel inspirovaných ostatními díly série Heroes of Might and Magic.<br/><br/>Tato modifikace přidává:<br/><br/>Zmatení<br/>Hluboké zmrazení<br/>Dračí síla<br/>Strach<br/>Levitace<br/>Loutkař<br/>Vampírismus<br/>Ráznost<br/>Včelí roj",
 		"translations" : [
 			"config/NewOldSpells/translation/czech.json"
 		]
